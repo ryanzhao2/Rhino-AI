@@ -1,0 +1,59 @@
+.chatPage {
+    height: 100%; /* Allows chat area to fill 90% of the viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    .wrapper {
+        flex: 1;
+        overflow-y: auto; /* Enables vertical scrolling for the chat content */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        
+            /* Custom scrollbar for Firefox */
+            scrollbar-width: thin; /* Sets the width of the scrollbar */
+            scrollbar-color: grey transparent; /* Scrollbar color (thumb and track) */
+    
+            /* Custom scrollbar for WebKit browsers (Chrome, Safari, Opera) */
+            &::-webkit-scrollbar {
+                width: 12px; /* Width of the scrollbar */
+            }
+    
+            &::-webkit-scrollbar-thumb {
+                background-color: grey; /* Color of the scrollbar thumb */
+                border-radius: 10px; /* Rounds the thumb */
+            }
+    
+            &::-webkit-scrollbar-track {
+                background: transparent; /* Transparent background for the scrollbar track */
+            }
+
+        .chat {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            
+            p,li{
+                margin: 10px 0px;
+            }
+
+            .message {
+                padding: 20px;
+                max-width: 80%;
+                border-radius: 20px;
+                margin: 5px 0; /* Adds space between messages */
+
+                &.user {
+                    background-color: #2c2937;
+                    align-self: flex-end; /* Aligns user messages to the right */
+                    max-width: 80%;
+                    align-self: flex-end;
+                }
+            }
+        }
+    }
+}
