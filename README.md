@@ -83,7 +83,7 @@ Before you begin, ensure you have the following installed:
 5. **Start the Client**: In a new terminal, navigate to the `client` directory and start the React application.
 
    ```bash
-   npm start
+   npm run dev
    ```
 
 6. **Access the Application**: Open your web browser and navigate to `http://localhost:3000` to use the application.
