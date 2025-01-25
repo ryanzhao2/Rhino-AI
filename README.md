@@ -1,6 +1,6 @@
 # Rhino AI
 
-Rhino AI is a web application designed to enhance creativity and productivity through AI-powered chat interactions. The application enables users to create and manage chats, analyze images, and receive assistance with coding tasks.
+Rhino AI is a chatbot application tailored for shopping, designed to provide users with personalized product recommendations, price comparisons, and site suggestions. In addition to enhancing the shopping experience, it also supports creative and productive tasks by offering coding assistance, image analysis, and chat management features.
 
 Inspired by Safak: https://github.com/safak/chatgpt-clone
 
