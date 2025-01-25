@@ -4,7 +4,39 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-
+    
+.productRecommendations {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .productCard {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .productCard img {
+    max-width: 100px;
+    margin-right: 15px;
+  }
+  
+  .productCard div {
+    margin-right: 10px;
+  }
+  
+  .productCard a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .productCard a:hover {
+    text-decoration: underline;
+  }
+  
     .wrapper {
         flex: 1;
         overflow-y: auto; /* Enables vertical scrolling for the chat content */

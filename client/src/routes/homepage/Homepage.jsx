@@ -19,10 +19,9 @@ const Homepage = () => {
       <img src="/orbital.png" alt="" className="orbital" />
       <div className="left">
       <h1>Rhino AI</h1>
-      <h2> Supercharge your creativity and productivity</h2>
+      <h2> Shop Smarter, Not Harder</h2>
       <h3>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      Find the best deals, the highest quality, and everything in between—right at your fingertips
       </h3>
       <Link to="/dashboard">Get Started</Link>
       </div>
@@ -41,33 +40,27 @@ const Homepage = () => {
             alt="" />
           <TypeAnimation
             sequence={[
-              'Enhancing Conversations, One Chat at a Time',
+              'Your Personal Shopping Assistant, Anytime',
               // wait 1 second before moving to next sentence
               1000, ()=>{
                 setTypingStatus("bot")
               },
-              'Your Virtual Assistant, Always Learning, Always Listening',
+              'Find, Compare, Buy—With a Chat',
               1000, ()=>{
                 setTypingStatus("human2")
               },
-              'Transforming Ideas into Conversations',
+              'Instant Product Suggestions, Just a Message Away',
               1000, ()=>{
                 setTypingStatus("bot")
               },
-              'Powered by AI, Driven by Curiosity',
+              'Say Goodbye to Shopping Overwhelm',
               1000, ()=>{
                 setTypingStatus("human1")
               },
-              'Smart Conversations, Tailored to You',
+              'Shopping Made Simple with AI',
               1000, ()=>{
                 setTypingStatus("human2")
               },
-              'Your Digital Companion, Ready to Assist',
-              1000, ()=>{
-                setTypingStatus("bot")
-              },
-              'Intelligence at Your Fingertips',
-              1000,
             ]}
             wrapper="span"
             speed={50}
