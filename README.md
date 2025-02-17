@@ -24,16 +24,6 @@ Inspired by Safak: https://github.com/safak/chatgpt-clone
 - **AI Integration**: Google Generative AI for enhanced interactivity and responses.
 - **Deployment**: Hosted on AWS and managed through CloudPanel for reliable performance.
 
-## Table of Contents
-
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Environment Variables](#environment-variables)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Installation
 
 ### Prerequisites
